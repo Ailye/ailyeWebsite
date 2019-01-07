@@ -1,0 +1,16 @@
+#logo {
+  height: 100%;
+  margin-right: 10px;
+}
+
+.buttonMargin {
+  margin: 5px;
+ }
+
+ mat-toolbar {
+   background-color: #327AE2;
+   height: 60px;
+   margin-bottom: 2%;
+ }
+
+

@@ -18,6 +18,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatIconModule } from '@angular/material/icon';
 import { Player } from 'twitch-embed';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     GalerieComponent,
     ProgrammationComponent,
     DevComponent,
-    BarreNavigationComponent
+    BarreNavigationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,6 @@
 <mat-toolbar>
   <img src='../../../assets/Ailye-Logo.jpg' alt='logo Ailye' id='logo'>
-  <button mat-raised-button [matMenuTriggerFor]="menu" class='buttonMargin'>Menu</button>
+  <button mat-raised-button [matMenuTriggerFor]="menu" class='buttonMargin' disabled>En developpement</button>
   <mat-menu #menu="matMenu"> <!-- A adapter avec les medias queries-->
     <button mat-menu-item>
       <mat-icon>face</mat-icon>
@@ -20,6 +20,4 @@
     </button>
   </mat-menu>
   <div fxFlex></div>
-  <button mat-raised-button class='buttonMargin'>Inscription</button>
-  <button mat-raised-button class='buttonMargin'>Connexion</button>
 </mat-toolbar>

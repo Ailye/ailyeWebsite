@@ -10,3 +10,14 @@
   margin: auto;
 }
 
+@media screen and (max-width: 900px) {
+  iframe {
+    width: 250px;
+    height: 190px;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+}

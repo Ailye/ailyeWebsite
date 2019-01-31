@@ -1,6 +1,9 @@
 {
   "name": "ailye-web-site",
   "version": "0.0.0",
+  "engines": {
+    "node": "v8.11.1"
+  },
   "scripts": {
     "postinstall": "ng build --prod",
     "ng": "ng",

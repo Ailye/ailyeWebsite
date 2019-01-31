@@ -10,6 +10,14 @@
   margin: auto;
 }
 
+#bodyModule {
+  width: 100%;
+}
+
+.bloc {
+  min-width: 0px;
+}
+
 @media screen and (max-width: 900px) {
   iframe {
     width: 250px;

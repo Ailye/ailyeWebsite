@@ -1,0 +1,17 @@
+table
+ {
+   width: 100%;
+ }
+
+th {
+  margin: auto;
+}
+
+.logoProjet {
+  width: 200px;
+  height: 200px;
+}
+
+figure {
+  margin: auto;
+}

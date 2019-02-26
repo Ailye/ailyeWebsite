@@ -1,3 +1,62 @@
-<p>
-  dev works!
-</p>
+<app-barre-navigation></app-barre-navigation>
+<div id='body'>
+    <h3>Mes connaissances</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">Langage de programmation</th>
+                <th scope="col">Niveau de maîtrise</th>
+                <th scope="col">Framework</th>
+                <th scope="col">Librairies</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Javascript</th>
+                <td>Junior</td>
+                <td>Angular 7</td>
+                <td>Bootstrap, Material, Leaflet, FlexLayout</td>
+            </tr>
+            <tr>
+                <th scope="row">SQL</th>
+                <td>Junior</td>
+                <td>MySQL</td>
+                <td>PHPMyAdmin</td>
+            </tr>
+            <tr>
+                <th scope="row">PHP</th>
+                <td>Débutant</td>
+                <td>Symfony 3</td>
+                <td>Doctrine, Slim</td>
+            </tr>
+            <tr>
+                <th scope="row">CSS</th>
+                <td>Junior</td>
+            </tr>
+        </tbody>
+    </table>
+    <div id='projets'>
+        <h3>Mes expériences en développement</h3>
+        <div class='card'>
+            <h5 class='card-header'>GeoVelo X WCS</h5>
+            <div class='card-body'>
+                <figure fxLayout="row">
+                    <img class='logoProjet' src='../../assets/logo-geovelo.png'>
+                        <figcaption>
+                            <p>Ce projet est issu d'une collaboration entre la
+                                <a href='https://wildcodeschool.fr/'>WildCodeSchool</a>
+                                et l'entreprise
+                                <a href='https://www.geovelo.fr/france/itinerary/search?profile=MEDIAN&bikeType=TRADITIONAL'>GeoVelo</a>
+                            </p>
+                            <ul>
+                                <li>Problématique : Effectué une migration d'une application (codée en AngularJS) vers le projet existant GeoVelo (sous Angular 7).</li>
+                                <li>Ressources : Un groupe de quatre developpeurs en apprentissage, durant 3 mois.</li>
+                                <li>Librairies utilisées : Angular Material, Material, Leaflet.</li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-footer></app-footer>

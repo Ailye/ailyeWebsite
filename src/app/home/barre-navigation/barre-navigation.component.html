@@ -1,23 +1,27 @@
 <mat-toolbar>
-  <img src='../../../assets/Ailye-Logo.jpg' alt='logo Ailye' id='logo'>
-  <button mat-raised-button [matMenuTriggerFor]="menu" class='buttonMargin' disabled>En developpement</button>
-  <mat-menu #menu="matMenu"> <!-- A adapter avec les medias queries-->
-    <button mat-menu-item>
-      <mat-icon>face</mat-icon>
-      <span>Qui suis-je ?</span>
-    </button>
-    <button mat-menu-item>
-      <mat-icon>dashboard</mat-icon>
-      <span>Programmation</span>
-    </button>
-    <button mat-menu-item>
-      <mat-icon>photo_album</mat-icon>
-     <span>Galerie</span>
-    </button>
-    <button mat-menu-item>
-      <mat-icon>code</mat-icon>
-      <span>Developpement Web & Co</span>
-    </button>
-  </mat-menu>
-  <div fxFlex></div>
-</mat-toolbar>
+    <img alt='logo Ailye' id='logo' src='../../../assets/Ailye-Logo.jpg'>
+        <button [matMenuTriggerFor]="menu" class='buttonMargin' mat-raised-button>En developpement</button>
+        <mat-menu
+            #menu="matMenu">
+            <!-- A adapter avec les medias queries-->
+            <button mat-menu-item>
+                <mat-icon>face</mat-icon>
+                <span>Qui suis-je ?</span>
+            </button>
+            <button mat-menu-item>
+                <mat-icon>dashboard</mat-icon>
+                <span>Programmation</span>
+            </button>
+            <button mat-menu-item>
+                <mat-icon>photo_album</mat-icon>
+                <span>Galerie</span>
+            </button>
+            <a href='./dev'>
+                <button mat-menu-item>
+                    <mat-icon>code</mat-icon>
+                    <span>Developpement Web & Co</span>
+                </button>
+            </a>
+        </mat-menu>
+        <div fxFlex></div>
+    </mat-toolbar>

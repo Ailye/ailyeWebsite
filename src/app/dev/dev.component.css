@@ -15,3 +15,11 @@ th {
 figure {
   margin: auto;
 }
+
+#body {
+  margin: 10px;
+}
+
+li {
+  margin: 15px;
+}

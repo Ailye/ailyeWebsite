@@ -12,4 +12,8 @@ export class BarreNavigationComponent implements OnInit {
   ngOnInit() {
   }
 
+  gotohome() {
+    
+  }
+
 }

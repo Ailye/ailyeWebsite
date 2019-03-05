@@ -1,18 +1,18 @@
 <mat-toolbar>
-    <img alt='logo Ailye' id='logo' src='../../../assets/Ailye-Logo.jpg'>
-        <button [matMenuTriggerFor]="menu" class='buttonMargin' mat-raised-button>En developpement</button>
+    <a href='/home'><img alt='logo Ailye' id='logo' src='../../../assets/Ailye-Logo.jpg'></a>
+        <button [matMenuTriggerFor]="menu" class='buttonMargin' mat-raised-button>Pour en savoir plus</button>
         <mat-menu
             #menu="matMenu">
             <!-- A adapter avec les medias queries-->
-            <button mat-menu-item>
+            <button mat-menu-item disabled>
                 <mat-icon>face</mat-icon>
                 <span>Qui suis-je ?</span>
             </button>
-            <button mat-menu-item>
+            <button mat-menu-item disabled>
                 <mat-icon>dashboard</mat-icon>
                 <span>Programmation</span>
             </button>
-            <button mat-menu-item>
+            <button mat-menu-item disabled>
                 <mat-icon>photo_album</mat-icon>
                 <span>Galerie</span>
             </button>
